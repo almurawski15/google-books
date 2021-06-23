@@ -1,0 +1,34 @@
+.nav-container {
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.navbar-title {
+    color:whitesmoke;
+    font-size: 35px;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+}
+
+.nav-search {
+    color: whitesmoke;
+    font-size: 25px;
+
+}
+
+.nav-saved {
+    color: whitesmoke;
+    font-size: 25px;
+}
