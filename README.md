@@ -1,13 +1,19 @@
 # Google Books Search
 
 ## Description
-This project is a Google Books Search app that displays books on search. 
 
-The project was bootstrapped with Create React App.
+MERN-Stack app allowing users to query and display books from the Google Books API.
+
+The project was bootstrapped with [Create React App](https://create-react-app.dev/).
 
 ## Screenshots
+
+![google-books](app-snapshot.PNG)
 
 ## Deployed Application
 
 This app is deployed on Heroku: https://google-searchbooks-hw.herokuapp.com/ 
 
+## Technologies 
+
+MERN stack application (Mongo, Express, React, Node)
