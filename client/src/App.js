@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import SearchForm from "./components/SearchForm";
 import Wrapper from "./components/Wrapper";
 
 import "./App.css";
+
+import Search from "./pages/search";
 
 class App extends Component {
  
@@ -16,7 +18,8 @@ class App extends Component {
           <Wrapper>
           <Navbar />
           <Header />
-          <SearchForm />
+          <Route exact="/" component={Search} />
+          <Route exact="/search" component={Search} />
           </Wrapper>
         </div>
       </Router>
